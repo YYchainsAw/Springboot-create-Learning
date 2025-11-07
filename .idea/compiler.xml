@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-create-manual" />
         <module name="springboot-quickstart" />
-        <module name="springboot-mybatis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-mybatis" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-create-manual" options="-parameters" />
-      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatis" options="" />
       <module name="springboot-quickstart" options="-parameters" />
     </option>
   </component>
