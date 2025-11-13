@@ -1,6 +1,7 @@
 package com.yychainsaw.springbootregister;
 
 import cn.itcast.pojo.Country;
+import com.yychainsaw.anno.EnableCommoConfig;
 import com.yychainsaw.config.CommonConfig;
 import com.yychainsaw.config.CommonImportSelector;
 import org.springframework.boot.SpringApplication;
@@ -14,7 +15,8 @@ import org.springframework.context.annotation.Import;
  *
  */
 @SpringBootApplication
-@Import(CommonImportSelector.class)
+//@Import(CommonImportSelector.class)
+@EnableCommoConfig
 public class SpringbootRegisterApplication
 {
     public static void main( String[] args )
