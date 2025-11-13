@@ -10,6 +10,7 @@
         <module name="springboot-create-manual" />
         <module name="Springboot-register" />
         <module name="springboot-quickstart" />
+        <module name="Springboot-auto-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
