@@ -12,6 +12,7 @@
     <modules>
         <module>springboot-quickstart</module>
         <module>springboot-create-manual</module>
+        <module>Springboot-test-PostgreSQL</module>
     </modules>  <!-- 关键：类型必须是 pom -->
 
     <!-- 统一管理 Spring Boot 版本 -->
