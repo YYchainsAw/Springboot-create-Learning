@@ -1,0 +1,17 @@
+package com.yychainsaw.anno;
+
+import com.yychainsaw.config.CommonImportSelector;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.context.annotation.Import;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+//@AutoConfiguration
+@Target({ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+@Import(CommonImportSelector.class)
+public @interface EableCommonConfig {
+}
