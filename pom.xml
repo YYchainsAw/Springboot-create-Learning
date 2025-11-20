@@ -17,6 +17,7 @@
         <module>Springboot-auto-config</module>
         <module>Dmybatis-spring-boot-autoconfig</module>
         <module>Dmybatis-spring-boot-starter</module>
+        <module>Springboot-profiles</module>
     </modules>  <!-- 关键：类型必须是 pom -->
 
     <!-- 统一管理 Spring Boot 版本 -->

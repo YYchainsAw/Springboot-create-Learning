@@ -13,6 +13,7 @@
         <module name="springboot-create-manual" />
         <module name="springboot-quickstart" />
         <module name="Dmybatis-spring-boot-starter" />
+        <module name="Springboot-profiles" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
